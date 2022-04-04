@@ -1,0 +1,14 @@
+@media (max-width: 850px) {
+    .showcase {
+        height: 400px;
+
+        &-content {
+            flex-direction: column;
+            text-align: center;
+
+            img {
+                display: none;
+            }
+        }
+    }
+}
